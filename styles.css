@@ -96,6 +96,7 @@ span {
     padding: 50px;
 }
 
+
 .footer-container {
     background-color: #1e313e;
     padding: 5px;
@@ -125,10 +126,7 @@ button {
 }
 
 @media all and (max-width:800px) {
-    .nav {
-        display: flex;
-        flex-direction: column;
-    }
+
 
     .section-about {
         display: flex;
@@ -141,10 +139,19 @@ button {
     }
 
     #gmap_canvas {
-        max-width: 450px;
         display: flex;
         justify-content: center;
     }
+
+}
+
+@media all and (max-width:500px) {
+
+    #gmap_canvas {
+        width: 300px;
+    }
+
+   
 
 }
 
